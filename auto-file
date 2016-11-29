@@ -1,0 +1,15 @@
+mode=unattended
+enable-components=javaalfresco,alfrescowcmqs,libreofficecomponent
+disable-components=postgres
+
+jdbc_url=jdbc:mysql://192.168.1.131:3306/al?useUnicode=yes&characterEncoding=UTF-8
+jdbc_driver=com.mysql.jdbc.Driver
+jdbc_database=alfresco1
+jdbc_username=alfresco1
+jdbc_password=alfresco
+
+prefix=/opt/alfresco-community
+
+alfresco_admin_password=admin
+
+baseunixservice_install_as_service=0
